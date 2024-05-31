@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+
+# yarn error logs
+yarn-error.log
+
+# Environment varibales
+.env*
+!.env*.example
+package-lock.json
+# Code coverage
+coverage
+
+# syslog
+syslog.txt
+yarn.lock
+dockerfile
+# images
+
+src/uploads/*
+.DS_Store*
+.dockerignore
+
+src/uploads/escrow/attachment/*
+
+# Crypto
+src/Config/private.pem
